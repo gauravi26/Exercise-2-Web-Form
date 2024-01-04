@@ -1,6 +1,7 @@
 <!-- _styles.php -->
 <style>
     #form {
+        width: 1180px;
         background-color: #ffffff;
         box-shadow: none;
         transition-property: all;
@@ -12,7 +13,12 @@
         background-position: left top;
         link-color: #fbab45;
     }
-
+    .span-19{
+        width: 1180px;
+        
+    }
+    
+   
     h1 {
         color: #0000ff;
         font-family: Georgia, serif;

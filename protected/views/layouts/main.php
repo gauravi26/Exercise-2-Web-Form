@@ -53,11 +53,15 @@
 
 	<div class="clear"></div>
 
-	<div id="footer">
-		Copyright &copy; <?php echo date('Y'); ?> by My Company.<br/>
-		All Rights Reserved.<br/>
-		<?php echo Yii::powered(); ?>
-	</div><!-- footer -->
+	
+        <div id="footer" style="background-color :#303030; text-align: center; color : grey; font-size: 15px; font-weight:bold; width: 1500px; padding :0px; margin: 0px" >
+ 
+    Contact us:<br/>
+    Join Telegram channel: <a href="https://t.me/u5india" target="_blank">https://t.me/u5india</a><br/>
+    Email: <a href="happy22kids@happy22kids.org" style="font-size: 18px; color:yellowgreen ;">happy22kids@happy22kids.org </a><br/>
+</div><!-- footer -->
+
+
 
 </div><!-- page -->
 
