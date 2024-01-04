@@ -32,7 +32,7 @@ class ExerciseController extends Controller
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update','list'),
+				'actions'=>array('create','update','list','statement'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -175,6 +175,12 @@ class ExerciseController extends Controller
              $listData = Exercise::model()->findAll();
              
              $this->render('list', array('members'=>$listData));
+            
+        }
+        public function actionStatement(){
+
+            
+             $this->render('statement');
             
         }
 }

@@ -235,3 +235,36 @@ Stack trace:
 REQUEST_URI=/Exercise2/index.php?r=exercise/create
 HTTP_REFERER=http://localhost/Exercise2/index.php?r=exercise/create
 ---
+2024/01/04 07:41:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "statement".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('statement')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('statement')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('exercise/statem...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Exercise2\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Exercise2/index.php?r=exercise/statement
+HTTP_REFERER=http://localhost/Exercise2/index.php?r=exercise/list
+---
+2024/01/04 07:41:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "statement".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('statement')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('statement')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('exercise/statem...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Exercise2\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Exercise2/index.php?r=exercise/statement
+HTTP_REFERER=http://localhost/Exercise2/index.php?r=exercise/list
+---
+2024/01/04 07:42:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "statement".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('statement')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('statement')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('exercise/statem...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Exercise2\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Exercise2/index.php?r=exercise/statement
+HTTP_REFERER=http://localhost/Exercise2/index.php?r=exercise/list
+---

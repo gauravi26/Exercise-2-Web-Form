@@ -19,6 +19,6 @@ $this->menu=array(
         
     </h1>
 <p style="font-size: 16px;" >
-    Please read the <a href="statement.html" style="text-decoration: underline; color: #fbab45; font-size: 20px;" >statement</a> before joining.
+    Please read the <a href="http://localhost/Exercise2/index.php?r=exercise/statement" style="text-decoration: underline; color: #fbab45; font-size: 20px;" >statement</a> before joining.
 </p>
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

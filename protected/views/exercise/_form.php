@@ -44,7 +44,7 @@ $linkClass = $linkPresent ? 'yellow-link' : '';
 )); ?>
 
 	<?php echo $form->errorSummary($model); ?>
-        <p>I would like to join the Chain-for-Children's-Cheer, and also encourage others to join and grow the chain.</p>
+<p>I would like to join the <span style="color: blue;">Chain-for-Children's-Cheer</span>, and also encourage others to join and grow the chain.</p>
 
         <div class="row" id="volunteer">
         <?php echo $form->labelEx($model, 'volunteer'); ?>
@@ -130,7 +130,7 @@ $linkClass = $linkPresent ? 'yellow-link' : '';
 	</div>
 
 <p style="font-size: 16px; text-align: justify;">
-   Privacy policy: Please read the<br> <a href="statement.html" style="text-decoration: underline; color: #fbab45; font-size: 20px;">statement</a> before joining.
+   Privacy policy: Please read the<br> <a href="http://localhost/Exercise2/index.php?r=exercise/statement" style="text-decoration: underline; color: #fbab45; font-size: 20px;">statement</a> before joining.
     By<br> submitting this form, you agree<br> that your submitted information <br>(except contact information) will<br> be stored and> displayed on the <br> website.
     Contact information will <br>NOT be displayed or passed on.
 </p>
